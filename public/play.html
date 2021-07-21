@@ -56,11 +56,8 @@
                     <p class="card-text">
                     <div id="htmlAnswers">
                         <div v-for="answer in answers">
-                            <p>
-                                <a v-on:click="checkResult(card.id, answer.id , $event)" type="button"
-                                    class="btn btn-outline-secondary"
-                                    style="width: 300px; text-align: left;">{{answer.answer}}</a>
-                            </p>
+                            <div v-on:click="checkResult(card.id, answer.id , $event)" role="button"
+                                class="alert alert-secondary">{{answer.answer}}</div>
                         </div>
                     </div>
                     </p>

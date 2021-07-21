@@ -20,10 +20,10 @@ function refreshHTMLAnswers() {
     var html = document.getElementById('htmlAnswers');
     if (html) {
         for (var i = 0; i < html.childElementCount; i++) {
-            var node = html.children[i].firstElementChild.lastElementChild;
-            node.classList.remove("btn-outline-danger");
-            node.classList.remove("btn-outline-success");
-            node.classList.add("btn-outline-secondary");
+            var node = html.children[i].firstElementChild;
+            node.classList.remove("alert-danger");
+            node.classList.remove("alert-success");
+            node.classList.add("alert-secondary");
         }
     }
 
@@ -99,14 +99,14 @@ function checkResults(question, answer, event) {
     }
 
     if (isCorrect) {
-        event.target.classList.remove("btn-outline-secondary");
-        event.target.classList.add("btn-outline-success");
+        event.target.classList.remove("alert-secondary");
+        event.target.classList.add("alert-success");
         storeResult(question, true);
         removeQuestion(question);
         setTimeout(function () { getNextQuestion(); }, 2000);
     } else {
-        event.target.classList.remove("btn-outline-secondary");
-        event.target.classList.add("btn-outline-danger");
+        event.target.classList.remove("alert-secondary");
+        event.target.classList.add("alert-danger");
         storeResult(question, false);
     }
 
