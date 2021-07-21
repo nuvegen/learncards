@@ -1,0 +1,35 @@
+{
+    "sets": [
+
+        {
+            "id": "1",
+            "question": "Was ist ein Sesamknochen?",
+            "questionImage": "",
+            "answer": "Die Kniescheibe",
+            "answerImage": ""
+          },
+          {
+            "id": "2",
+            "question": "Bezeichne den gekennzeichneten Begriff",
+            "questionImage": "bild1.png",
+            "answer": "Epiphyse",
+            "answerImage": ""
+          },
+          {
+            "id": "3",
+            "question": "Bezeichne den gekennzeichneten Begriff",
+            "questionImage": "bild2.png",
+            "answer": "Metaphyse",
+            "answerImage": ""
+          },
+          {
+            "id": "4",
+            "question": "Bezeichne den gekennzeichneten Begriff",
+            "questionImage": "bild3.png",
+            "answer": "Diaphyse",
+            "answerImage": ""
+          }
+          
+
+    ]
+}

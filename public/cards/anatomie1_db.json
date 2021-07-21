@@ -1,0 +1,250 @@
+{
+  "sets": [
+    {
+      "id": "1",
+      "question": "L1: Welche Knochenform ist hier abgebildet?",
+      "questionImage": "a1l1-1.png",
+      "answer": "Röhrenknochen / lange Knochen",
+      "answerImage": ""
+    },
+    {
+      "id": "2",
+      "question": "L1: Welche Knochenform ist hier abgebildet?",
+      "questionImage": "a1l1-2.png",
+      "answer": "kurze Knochen /würfelförmige Knochen",
+      "answerImage": ""
+    },
+    {
+      "id": "3",
+      "question": "L1: Welche Knochenform ist hier abgebildet?",
+      "questionImage": "a1l1-3.png",
+      "answer": "irreguläre Knochen",
+      "answerImage": ""
+    },
+    {
+      "id": "4",
+      "question": "L1: Welche Knochenform ist hier abgebildet?",
+      "questionImage": "a1l1-4.png",
+      "answer": "platter Knochen",
+      "answerImage": ""
+    },
+    {
+      "id": "5",
+      "correctid": [
+        "5",
+        "6",
+        "7"
+      ],
+      "question": "L1: Nennen Sie ein Beispiel für die Knochenform Röhrenknochen / lange Knochen",
+      "questionImage": "a1l1-1.png",
+      "answer": "Humerus",
+      "answerImage": ""
+    },
+    {
+      "id": "6",
+      "correctid": [
+        "5",
+        "6",
+        "7"
+      ],
+      "question": "L1: Nennen Sie ein Beispiel für die Knochenform Röhrenknochen / lange Knochen",
+      "questionImage": "a1l1-1.png",
+      "answer": "Femur",
+      "answerImage": ""
+    },
+    {
+      "id": "7",
+      "correctid": [
+        "5",
+        "6",
+        "7"
+      ],
+      "question": "L1: Nennen Sie ein Beispiel für die Knochenform Röhrenknochen / lange Knochen",
+      "questionImage": "a1l1-1.png",
+      "answer": "Tibia",
+      "answerImage": ""
+    },
+    {
+      "id": "8",
+      "correctid": [
+        "8",
+        "9"
+      ],
+      "question": "L1: Nennen Sie ein Beispiel für die Knochenform kurze Knochen /würfelförmige Knochen",
+      "questionImage": "a1l1-2.png",
+      "answer": "Handwurzelknochen",
+      "answerImage": ""
+    },
+    {
+      "id": "9",
+      "correctid": [
+        "8",
+        "9"
+      ],
+      "question": "L1: Nennen Sie ein Beispiel für die Knochenform kurze Knochen /würfelförmige Knochen",
+      "questionImage": "a1l1-2.png",
+      "answer": "Fußwurzelknochen",
+      "answerImage": ""
+    },
+    {
+      "id": "10",
+      "correctid": [
+        "10",
+        "11",
+        "12"
+      ],
+      "question": "L1: Nennen Sie ein Beispiel für die Knochenform platte Knochen",
+      "questionImage": "a1l1-4.png",
+      "answer": "Schädelplatten",
+      "answerImage": ""
+    },
+    {
+      "id": "11",
+      "correctid": [
+        "10",
+        "11",
+        "12"
+      ],
+      "question": "L1: Nennen Sie ein Beispiel für die Knochenform platte Knochen",
+      "questionImage": "a1l1-4.png",
+      "answer": "Scapula",
+      "answerImage": ""
+    },
+    {
+      "id": "12",
+      "correctid": [
+        "10",
+        "11",
+        "12"
+      ],
+      "question": "L1: Nennen Sie ein Beispiel für die Knochenform platte Knochen",
+      "questionImage": "a1l1-4.png",
+      "answer": "Os ileum",
+      "answerImage": ""
+    },
+    {
+      "id": "13",
+      "correctid": [
+        "13",
+        "14"
+      ],
+      "question": "L1: Nennen Sie ein Beispiel für die Knochenform irreguläre Knochen ",
+      "questionImage": "a1l1-3.png",
+      "answer": "Unterkiefer",
+      "answerImage": ""
+    },
+    {
+      "id": "14",
+      "correctid": [
+        "13",
+        "14"
+      ],
+      "question": "L1: Nennen Sie ein Beispiel für die Knochenform irreguläre Knochen ",
+      "questionImage": "a1l1-3.png",
+      "answer": "weitere Knochen des Gesichtsschädels",
+      "answerImage": ""
+    },
+    {
+      "id": "15",
+      "question": "L1: Nennen Sie ein Beispiel für die Knochenform Sesambeine ",
+      "questionImage": "",
+      "answer": "eingebettet in eine Sehne, z.B. Kniescheibe",
+      "answerImage": ""
+    },
+    {
+      "id": "16",
+      "question": "L2: Ich kann die äußere Struktur eines Röhrenknochens erkennen",
+      "questionImage": "a1l2-1.png",
+      "answer": "Epiphyse",
+      "answerImage": "a1l2b.png"
+    },
+    {
+      "id": "17",
+      "question": "L2: Ich kann die äußere Struktur eines Röhrenknochens erkennen",
+      "questionImage": "a1l2-2.png",
+      "answer": "Metaphyse",
+      "answerImage": "a1l2b.png"
+    },
+    {
+      "id": "18",
+      "question": "L2: Ich kann die äußere Struktur eines Röhrenknochens erkennen",
+      "questionImage": "a1l2-3.png",
+      "answer": "Diaphyse",
+      "answerImage": "a1l2b.png"
+    },
+    {
+      "id": "19",
+      "question": "L2: Ich kann die äußere Struktur eines Röhrenknochens erkennen",
+      "questionImage": "a1l2-4.png",
+      "answer": "Spongiosa (Knochenbälkchen)",
+      "answerImage": "a1l2b.png"
+    },
+    {
+      "id": "20",
+      "question": "L3: Ich kann den weiteren Aufbau eines Knochens beschreiben",
+      "questionImage": "aa1l3a.png",
+      "answer": "Spongiosa (Knochenbälkchen, innen)",
+      "answerImage": "a1l3r.png"
+    },
+    {
+      "id": "21",
+      "question": "L3: Ich kann den weiteren Aufbau eines Knochens beschreiben",
+      "questionImage": "a1l3b.png",
+      "answer": "Kompakta/Kortikalis (kompakte Knochenstruktur --> Lamellenknochen, außen)",
+      "answerImage": "a1l3r.png"
+    },
+    {
+      "id": "22",
+      "question": "L3: Ich kann den weiteren Aufbau eines Knochens beschreiben",
+      "questionImage": "a1l3c.png",
+      "answer": "Periost (Knochenhaut)",
+      "answerImage": ""
+    },
+    {
+      "id": "23",
+      "question": "L3: Ich kann den weiteren Aufbau eines Knochens beschreiben",
+      "questionImage": "a1l3d.png",
+      "answer": " Knochenmarkhöhle mit Knochenmark",
+      "answerImage": "a1l3r.png"
+    },
+    {
+      "id": "24",
+      "question": "L3: Ich kann den weiteren Aufbau eines Knochens beschreiben",
+      "questionImage": "a1l3e.png",
+      "answer": "Epiphysenlinie (verknöcherte )Wachstumsfuge",
+      "answerImage": "a1l3r.png"
+    },
+    {
+      "id": "25",
+      "correctid": ["25","26","27","28"],
+      "question": "L4: Veränderung des Knochens im Laufe des Lebens. Folgende Angaben trefen zu:",
+      "questionImage": "",
+      "answer": "kontinuierliche Zunahme der Knochenmasse bei Kindern und Jugendlichen",
+      "answerImage": "a1l4r.png"
+    },
+    {
+      "id": "26",
+      "correctid": ["25","26","27","28"],
+      "question": "L4: Veränderung des Knochens im Laufe des Lebens. Folgende Angaben trefen zu:",
+      "questionImage": "",
+      "answer": "maximale Knochenmasse mit ca. 30 Jahren",
+      "answerImage": "a1l4r.png"
+    },
+    {
+      "id": "27",
+      "correctid": ["25","26","27","28"],
+      "question": "L4: Veränderung des Knochens im Laufe des Lebens. Folgende Angaben trefen zu:",
+      "questionImage": "",
+      "answer": "Abnahme der Knochenmasse mit zunehmenden Alter (bedingt durch hormonelle Veränderungen)",
+      "answerImage": "a1l4r.png"
+    },
+    {
+      "id": "28",
+      "correctid": ["25","26","27","28"],
+      "question": "L4: Veränderung des Knochens im Laufe des Lebens. Folgende Angaben trefen zu:",
+      "questionImage": "",
+      "answer": "ab den Wechseljahren bei Frauen stärkere Abnahme der Knochenmasse als bei Männern (verringerte Östrogenbildung)",
+      "answerImage": "a1l4r.png"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+    <div id="app">
+
+        <div v-if="failure" class="alert alert-danger" role="alert">
+            <p>We're sorry, we're not able to retrieve this information at the moment, please try back later</p>
+        </div>
+
+        <div v-if="loading" class="alert alert-primary" role="alert">
+            Loading...
+        </div>
+
+        <section v-else>
+            <div class="card">
+                <div class="card-header">
+                    Learnkarten
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Spiel noch {{maxCards}} Karten</h5>
+                    <div class="card-text">
+                        <div class="btn-group  btn-group-toggle float-right " role="group">
+                            <a :href="'play.html?id=' + learnset.folder" type="button"
+                                class="btn btn-dark">Neustarten</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card" v-if="!success">
+                <div class="card-body">
+                    <h5 class="card-title">{{card.question}}</h5>
+                    <p class="card-text" v-if="card.questionImage != ''">
+                        <img :src="'cards/' + learnset.folder + '/images/' + card.questionImage" class="img-fluid" />
+                        {{card.questionImage}}
+                    </p>
+                </div>
+            </div>
+
+            <div class="card" v-if="!success">
+                <div class="card-body">
+                    <h5 class="card-title">Antwort</h5>
+                    <p class="card-text">
+                    <div id="htmlAnswers">
+                        <div v-for="answer in answers">
+                            <p>
+                                <a v-on:click="checkResult(card.id, answer.id , $event)" type="button"
+                                    class="btn btn-outline-secondary"
+                                    style="width: 300px; text-align: left;">{{answer.answer}}</a>
+                            </p>
+                        </div>
+                    </div>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section v-if="success">
+            <div class="alert alert-success" role="alert">
+                Du hast alle Karten erfolgreich gelöst.
+                <a href='index.html'>Klicke hier um ein neues Set auszuwählen.</a>
+            </div>
+        </section>
+
+    </div>
+
+
+    <script src="play.js"></script>
+
+
+</body>
+
+</html>
