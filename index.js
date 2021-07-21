@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const port = 3000
+const portDefault = 3000
 
 const StormDB = require("stormdb");
 const fs = require('fs')
@@ -46,8 +46,9 @@ app.get("/api/learnsets/:id", (req, res) => {
 
 
 
+var port = portDefault;
+if (process.argv[2]) port = process.argv[2];
+
 app.listen(port, () => {
-  console.log(`Example app listening at http://localhost:${port}`)
+  console.log(`Listening at http://*:${port}`)
 })
-
-
